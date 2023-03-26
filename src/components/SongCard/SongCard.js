@@ -22,7 +22,8 @@ const SongCard = (props) => {
 
                     {props.song.isSoldOut && (<View style={styles.soldout_container}>
                         <Text style={styles.soldout_title}>TÜKENDİ</Text>
-                    </View>)}
+                    </View>
+                    )}
                 </View>
 
             </View>
