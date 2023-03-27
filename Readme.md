@@ -1,9 +1,13 @@
 ## Music App
 # İçindekiler: 
 ![SearchBar.js Sayfası:](./src/components/SearchBar/SearchBar.js)
+
 ![SearchBar.style.js Sayfası:](./src/components/SearchBar/SearchBar.styles.js)
+
 ![SongCard.js Sayfası:](./src/components//SongCard/SongCard.js)
+
 ![SongCard.style.js Sayfası:](./src/components//SongCard/SongCard.styles.js)
+
 
 
 # Projenin Görüntüsü:
