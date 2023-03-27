@@ -6,7 +6,7 @@
  */
 
 import React, {useState} from 'react';
-import type {PropsWithChildren} from 'react';
+//import type {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,7 +25,7 @@ function App(){
 
   const renderSong = ({item}:{item: any})=> <SongCard song={item}/>
   const renderSeperator = () => <View style={styles.seperator}></View>
-  const handleSearch = ({text}:{text: any})  => {
+  const handleSearch = text  => {
     const filteredList = music_data.filter(song => {
       const searchedText = text.toLowerCase();
       const currentTitle = song.title.toLowerCase();

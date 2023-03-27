@@ -7,7 +7,7 @@ const SearchBar = (props) => {
         <View style={styles.container}>
             <TextInput
                 placeholder="Ara.."
-                onChangeText={props.handleSearch}
+                onChangeText={props.onSearch}
             />
         </View>
     )
