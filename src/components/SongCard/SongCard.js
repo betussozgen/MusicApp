@@ -26,6 +26,10 @@ const SongCard = (props) => {
                     )}
                 </View>
 
+                <View>
+                        <Text style ={styles.album}>{props.song.album}</Text>
+                    </View>
+
             </View>
         </View>
 

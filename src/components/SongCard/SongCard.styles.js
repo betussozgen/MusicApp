@@ -32,6 +32,10 @@ export default StyleSheet.create({
         color: 'gray',
         fontWeight: 'bold',
     },
+    album:{
+        fontSize: 12,
+        color: 'gray',
+    },
     soldout_container:{
         borderWidth: 1,
         borderColor: 'red',
