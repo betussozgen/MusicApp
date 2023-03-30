@@ -14,4 +14,4 @@
 ![ProjeGörüntüsü:](/%C4%B0mages/MusicApp.jpg)
 
 # Music listesinden kelime aratarak filtreleme işlemi:
-![Filtrelemeİşlemi:](/%C4%B0mages/MusicAppFiltreleme.jpg)
+![Filtrelemeİşlemi:](/%C4%B0mages/MusicAppFilter.jpg)
