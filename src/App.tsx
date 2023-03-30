@@ -21,16 +21,18 @@ import SearchBar from './components/SearchBar';
 
 function App(){
 
-  const [list, setList] = useState(music_data);
+  const [list, setList] = useState(music_data); //state tanımladım.
 
   const renderSong = ({item}:{item: any})=> <SongCard song={item}/>
+
   const renderSeperator = () => <View style={styles.seperator}></View>
+
   const handleSearch = text  => {
     const filteredList = music_data.filter(song => {
-      const searchedText = text.toLowerCase();
-      const currentTitle = song.title.toLowerCase();
+      const searchedText = text.toLowerCase(); //kullanıcının girdiği harfi lowercase yapıyorum.
+      const currentTitle = song.title.toLowerCase(); // o an dönen şarkıyı lowercase yaptık.
 
-       return currentTitle.indexOf(searchedText) > -1;
+       return currentTitle.indexOf(searchedText) > -1; //şarkının isminde kullanıcın girdiği harf var mı yok mu araması yapıyorum.
     });
 
     setList(filteredList);
